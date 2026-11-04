@@ -9,6 +9,6 @@ PhysicsMaterial2D:
   m_Name: Bounce Wall
   serializedVersion: 2
   friction: 10
-  bounciness: 1.5
+  bounciness: 2
   m_FrictionCombine: 1
   m_BounceCombine: 4
