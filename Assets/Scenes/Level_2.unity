@@ -220,6 +220,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3076945283460161049, guid: a943ed3f1b2cfbf46a3f3da5e8831980, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076945283460161049, guid: a943ed3f1b2cfbf46a3f3da5e8831980, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3779037477472882331, guid: a943ed3f1b2cfbf46a3f3da5e8831980, type: 3}
       propertyPath: m_Name
       value: Floor_1
@@ -1724,6 +1732,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3748798915884907080, guid: 06bfbd68df8a30c428da45c31f7f09b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3748798915884907080, guid: 06bfbd68df8a30c428da45c31f7f09b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7718101978725633538, guid: 06bfbd68df8a30c428da45c31f7f09b4, type: 3}
       propertyPath: m_LocalScale.x
       value: 18
@@ -2096,11 +2112,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3327463971661029747, guid: e3996036fad1a974ea1c609c77806ee0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.75
+      value: -17.415
       objectReference: {fileID: 0}
     - target: {fileID: 3327463971661029747, guid: e3996036fad1a974ea1c609c77806ee0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.88
+      value: -3.484
       objectReference: {fileID: 0}
     - target: {fileID: 3327463971661029747, guid: e3996036fad1a974ea1c609c77806ee0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2133,10 +2149,6 @@ PrefabInstance:
     - target: {fileID: 3327463971661029747, guid: e3996036fad1a974ea1c609c77806ee0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842388688162699686, guid: e3996036fad1a974ea1c609c77806ee0, type: 3}
-      propertyPath: m_Radius
-      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
