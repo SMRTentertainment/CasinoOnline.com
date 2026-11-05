@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    //[SerializeField] string _nextLevelName;
     [SerializeField] float _sceneLoadingTime;
 
     private BallManager _ballManager;

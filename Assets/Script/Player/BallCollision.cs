@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(BallManager))]
 public class BallCollision : MonoBehaviour
 {
     private BallManager _ballManager;

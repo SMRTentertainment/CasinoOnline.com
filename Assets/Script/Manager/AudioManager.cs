@@ -4,11 +4,20 @@ public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioClip _levelMusic;
     [SerializeField] private AudioSource _musicAudioSource;
+    [SerializeField] private AudioSource _audioSource;
+    
+    public static AudioManager instance;
 
     private void Awake()
     {
         SetAudioClip(_musicAudioSource, _levelMusic);
         PlayAudioSource(_musicAudioSource);
+        instance = this;
+    }
+
+    public void PlaySFX(AudioClip audioClip)
+    {
+        _audioSource.PlayOneShot(audioClip);
     }
 
     private void PlayAudioClip(AudioSource audioSource, AudioClip audioClip)

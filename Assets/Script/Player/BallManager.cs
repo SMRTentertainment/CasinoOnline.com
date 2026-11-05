@@ -9,6 +9,7 @@
         private BallPhysics _ballPhysics;
         private BallData _ballData;
         private TrajectoryLine _TrajectoryLine;
+        public static BallManager instance;
 
         public event Action BallStopped;
         public event Action BallCollideWithEnemy;
@@ -32,6 +33,7 @@
             _ballPhysics = GetComponent<BallPhysics>();
             _ballData = GetComponent<BallData>();
             _TrajectoryLine = GetComponent<TrajectoryLine>();
+            instance = this;
         }
 
         private void Update()
@@ -82,10 +84,10 @@
             return _ballData.BallRigibody2d;
         }
 
-        public GameObject ObtainGameObject()
-        {
-            return _ballData.BallGameObject;
-        }
+        // public GameObject ObtainGameObject()
+        // {
+        //     return _ballData.BallGameObject;
+        // }
 
         public SpriteRenderer ObtainSpriteRenderer()
         {
