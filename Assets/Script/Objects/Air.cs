@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Air : EnvironmentalObject/*, IEnemy*/
+public class Air : EnvironmentalObject
 {
     private BallManager _ballManager;
 
@@ -12,15 +12,10 @@ public class Air : EnvironmentalObject/*, IEnemy*/
     }
     public override void Collide()
     {
-        //_ballManager.CollideWithEnemy();
         Debug.Log("¡TOCÓ LA ZONA DE MUERTE!");
         if (_ballManager != null)
         {
             _ballManager.CollideWithEnemy();
         }
     }
-
-    //public void DealDamage()
-    //{
-    //}
 }

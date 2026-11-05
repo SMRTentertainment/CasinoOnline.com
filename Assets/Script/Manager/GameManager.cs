@@ -57,14 +57,12 @@ public class GameManager : MonoBehaviour
     
     private void OnPlayerDeath()
     {
-        // Esperamos 1.5 segundos para dar tiempo a la animación de explosión de BallEffects
         StartCoroutine(RestartCurrentLevel(1.5f));
     }
 
     private IEnumerator RestartCurrentLevel(float timeToWait)
     {
         yield return new WaitForSeconds(timeToWait);
-        // Recarga la escena actual en la que está jugando
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
