@@ -2313,7 +2313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1483959112
 Transform:
   m_ObjectHideFlags: 0
@@ -2337,12 +2337,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483959111}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ece359a037954b044a1dd0124c2c4091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  _levelMusic: {fileID: 8300000, guid: 957ce3dd63f00194092ecf2599a30ebc, type: 3}
+  _levelMusic: {fileID: 8300000, guid: 9188ae67dfb3e7943a25592b3dfc406c, type: 3}
   _musicAudioSource: {fileID: 1790030631}
 --- !u!1001 &1485501200
 PrefabInstance:
